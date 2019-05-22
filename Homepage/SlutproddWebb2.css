@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Signature';
+  src: url(../Fonts/BeyondInfinity.ttf);
+}
+
+body{
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar{
+  width: 100%;
+  height:60px;
+  background: rgba(255, 255, 255,0.9);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top:0;
+}
+
+.navbar p{
+    margin-top:5px;
+    font-family: 'Signature';
+    text-align: center;
+    font-size: 50px;
+}
+
+.Container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#Centered_1 {
+  position: absolute;
+  top: 35%;
+  right:640px;
+  transform: translate(-50%, -50%);
+  font-family: 'Signature';
+  font-size: 110px;
+  color: white;
+  -webkit-animation: fadein_1 5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein_1 5s; /* Firefox < 16 */
+  -ms-animation: fadein_1 5s; /* Internet Explorer */
+  -o-animation: fadein_1 5s; /* Opera < 12.1 */
+  animation: fadein_1 5s
+  /* font-weight: bold;*/
+}
+
+#Centered_2 {
+  position: absolute;
+  top: 35%;
+  left: 845px;
+  transform: translate(-50%, -50%);
+  font-family: 'Signature';
+  font-size: 110px;
+  color: white;
+  -webkit-animation: fadein_2 10s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein_2 10s; /* Firefox < 16 */
+  -ms-animation: fadein_2 10s; /* Internet Explorer */
+  -o-animation: fadein_2 10s; /* Opera < 12.1 */
+  animation: fadein_2 10s
+  /* font-weight: bold;*/
+}
+
+.FullImg{
+  width: 100%;
+  margin-top: -60px;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.footer{
+  width:100%;
+  position: fixed;
+  left:0;
+  bottom:0;
+  /* z-index: 2000;*/
+  background: rgba(0, 0, 0,0.9);
+  height:60px;
+}
+
+.footer p{
+  color:white;
+  text-align: center;
+  margin-top: -20px;
+  /* font-family: 'Signature';*/
+  font-family: 'Arial'
+}
+
+.footer #SocialBar
+{
+  margin-top:25px;
+  padding-left: 20px;
+}
+
+.twitter {
+  color: white;
+  margin:2px;
+}
+
+.twitter:hover {
+  color: #40826d;
+  transition: all 0.3s ease;
+}
+
+.soundcloud {
+  color: white;
+  margin:2px;
+}
+
+.soundcloud:hover {
+  color: #40826d;
+  transition: all 0.3s ease;
+}
+
+.instagram{
+  color: white;
+  margin:2px;
+}
+
+.instagram:hover {
+  color: #40826d;
+  transition: all 0.3s ease;
+}
+
+.spotify {
+  color: white;
+  margin:2px;
+}
+
+.spotify:hover {
+  color: #40826d;
+  transition: all 0.3s ease;
+}
+
+.facebook {
+  color: white;
+  margin:2px;
+}
+
+.facebook:hover {
+  color: #40826d;
+  transition: all 0.3s ease;
+}
+.youtube {
+  color: white;
+  margin:2px;
+}
+
+.youtube:hover {
+  color: #40826d;
+  transition: all 0.3s ease;
+}
+
+
+@keyframes fadein_1 {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein_1 {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein_1 {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein_1 {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein_1 {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadein_2 {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein_2 {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein_2 {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein_2 {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein_2 {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .FullImg{
+  width: 100%;
+  margin-top: -60px;
+  height:auto;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+}
+
+@media only screen and (min-width: 600px) {
+  .FullImg{
+  width: 100%;
+  margin-top: -60px;
+  height:auto;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+}
+
+@media only screen and (min-width: 768px) {
+  .FullImg{
+  width: 100%;
+  margin-top: -60px;
+  height:auto;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}}
+
+@media only screen and (min-width: 992px) {
+  .FullImg{
+  width: 100%;
+  margin-top: -60px;
+  height:auto;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}}
+
+@media only screen and (min-width: 1200px) {
+  .FullImg{
+  width: 100%;
+  margin-top: -60px;
+  height:auto;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}}

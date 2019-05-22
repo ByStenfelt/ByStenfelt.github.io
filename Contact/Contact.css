@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Signature';
+  src: url(../Fonts/BeyondInfinity.ttf);
+}
+
+body{
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar{
+  width: 100%;
+  height:60px;
+  background: rgba(255, 255, 255,0.9);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top:0;
+  z-index: 1;
+}
+
+.navbar p{
+    margin-top: -35px;
+    font-family: 'Signature';
+    text-align: center;
+    font-size: 50px;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Signature', 'Arial';
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.FullImg{
+  width: 100%;
+  margin-top: -60px;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+#carousel .fotorama{
+width: 100%;
+z-index: -1;
+
+
+}
+
+.footer{
+  width:100%;
+  position: fixed;
+  left:0;
+  bottom:0;
+  /* z-index: 2000;*/
+  background: rgba(0, 0, 0,0.9);
+  height:60px;
+}
+
+.footer p{
+  color:white;
+  text-align: center;
+  margin-top: -20px;
+  /* font-family: 'Signature';*/
+  font-family: 'Arial'
+}
+
+.footer #SocialBar
+{
+  margin-top:25px;
+  padding-left: 20px;
+}
+
+.twitter {
+  color: white;
+  margin:2px;
+}
+
+.twitter:hover {
+  color: #40826d;
+  transition: all 0.3s ease;
+}
+
+.soundcloud {
+  color: white;
+  margin:2px;
+}
+
+.soundcloud:hover {
+  color: #40826d;
+  transition: all 0.3s ease;
+}
+
+.instagram{
+  color: white;
+  margin:2px;
+}
+
+.instagram:hover {
+  color: #40826d;
+  transition: all 0.3s ease;
+}
+
+.spotify {
+  color: white;
+  margin:2px;
+}
+
+.spotify:hover {
+  color: #40826d;
+  transition: all 0.3s ease;
+}
+
+.facebook {
+  color: white;
+  margin:2px;
+}
+
+.facebook:hover {
+  color: #40826d;
+  transition: all 0.3s ease;
+}
+
+.youtube {
+  color: white;
+  margin:2px;
+}
+
+.youtube:hover {
+  color: #40826d;
+  transition: all 0.3s ease;
+}
